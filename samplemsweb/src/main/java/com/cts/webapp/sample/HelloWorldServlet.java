@@ -18,7 +18,7 @@ public class HelloWorldServlet extends HttpServlet {
 		resp.setContentType("text/html");
 		
 		PrintWriter out = resp.getWriter();
-		out.print("<h1> code updated Training docker .."+new java.util.Date()+"</h1>");
+		out.print("<h1> continues integration is running fine .."+new java.util.Date()+"</h1>");
 		out.flush();
 		out.close();	}
 }
