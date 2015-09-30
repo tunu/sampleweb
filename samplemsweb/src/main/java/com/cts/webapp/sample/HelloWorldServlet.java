@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class HelloWorldServlet extends HttpServlet {
 	
-	
+	out.println("<body style='background-color:#0040FF;'>");
 	private static final long serialVersionUID = 1031422249396784970L;
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)
@@ -22,7 +22,7 @@ public class HelloWorldServlet extends HttpServlet {
 		
 		
 		
-		out.println("<body style='background-color:#0040FF;'>");
+		
 		out.print("<h1> Integrating code change state3 .."+new java.util.Date()+"</h1>");
 		out.flush();
 		out.close();	}
