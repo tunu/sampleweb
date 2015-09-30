@@ -20,11 +20,7 @@ public class HelloWorldServlet extends HttpServlet {
 		PrintWriter out = resp.getWriter();
 		
 		
-		<input type="text" size="5" value="12345" /><br />
-
-		<input type="text" size="15" value="HTML text filed" /><br />
-
-		<input type="text" size="25" value="HTML Tutorials " />
+		<input type="text" size="5" maxlength="5" /><br />
 		
 		out.println("<body style='background-color:#0040FF;'>");
 		out.print("<h1> Integrating code change state3 .."+new java.util.Date()+"</h1>");
