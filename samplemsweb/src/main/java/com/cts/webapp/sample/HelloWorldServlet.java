@@ -20,7 +20,6 @@ public class HelloWorldServlet extends HttpServlet {
 		PrintWriter out = resp.getWriter();
 		
 		out.println("<body style='background-color:#0040FF;'>");
-		<marquee>TEXT</marquee>;
 		
 		
 		out.print("<h1><marquee> Integrating code change state3 </marquee>.."+new java.util.Date()+"</h1>");
