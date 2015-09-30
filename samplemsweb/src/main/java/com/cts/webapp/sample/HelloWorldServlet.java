@@ -15,11 +15,11 @@ public class HelloWorldServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		out.println("<body style='background-color:#0040FF;'>");
+		
 		resp.setContentType("text/html");
 		PrintWriter out = resp.getWriter();
 		
-		
+		out.println("<body style='background-color:#0040FF;'>");
 		
 		
 		
