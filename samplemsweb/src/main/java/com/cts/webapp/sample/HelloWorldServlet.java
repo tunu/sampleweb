@@ -19,6 +19,7 @@ public class HelloWorldServlet extends HttpServlet {
 		resp.setContentType("text/html");
 		
 		PrintWriter out = resp.getWriter();
+		<html xmlns="http://www.w3.org/1999/xhtml">
 		out.println("<body style='background-color:#d3d3d3;'>");
 		out.print("<h1> Integrating code change state3 .."+new java.util.Date()+"</h1>");
 		out.flush();
