@@ -18,7 +18,7 @@ public class HelloWorldServlet extends HttpServlet {
 		resp.setContentType("text/html");
 		
 		PrintWriter out = resp.getWriter();
-		out.print("<h1> Integrating code change state2 .."+new java.util.Date()+"</h1>");
+		out.print("<h1> Integrating code change state3 .."+new java.util.Date()+"</h1>");
 		out.flush();
 		out.close();	}
 }
