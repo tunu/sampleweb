@@ -11,7 +11,13 @@ import javax.servlet.http.HttpServletResponse;
 public class HelloWorldServlet extends HttpServlet {
 	
 	
-	out.println("<!DOCTYPE html>");  // HTML 5
+	private static final long serialVersionUID = 1031422249396784970L;
+
+	public void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		
+		out.println("<!DOCTYPE html>");  // HTML 5
          out.println("<html><head>");
          out.println("<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>");
          String title = rb.getString("Integrating code change state2.title");
@@ -25,15 +31,8 @@ out.println("<body style='background-color:#d3d3d3;'>");
          
          out.println("<a href='" + request.getRequestURI() + "'><img src='images/return.gif'></a>");
          out.println("</body></html>");
-
-	
-	
-	
-	
-	private static final long serialVersionUID = 1031422249396784970L;
-
-	public void doGet(HttpServletRequest req, HttpServletResponse resp)
-			throws ServletException, IOException {
+		
+		
 		
 		resp.setContentType("text/html");
 		
