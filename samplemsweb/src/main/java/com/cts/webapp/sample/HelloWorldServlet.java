@@ -19,10 +19,15 @@ public class HelloWorldServlet extends HttpServlet {
 		resp.setContentType("text/html");
 		PrintWriter out = resp.getWriter();
 		
-		out.println("<body style='background-color:#0040FF;'>");
-		
-		
+		out.println("<body style='background-color:#82CEE5;'>");
+		out.println(""<marquee width=200 direction=left><img src="http://www.krazy-kreations.com/images/babies/0059.gif"></marquee>");
 		out.print("<h1><marquee> Integrating code change state3 </marquee>.."+new java.util.Date()+"</h1>");
+		out.print("<h1><marquee direction="right"> Integrating code change state3 </marquee>.."+new java.util.Date()+"</h1>");
+		out.print("<h1><marquee behavior="alternate"> Integrating code change state3 </marquee>.."+new java.util.Date()+"</h1>");
+		out.print("<h1><marquee direction="up" behavior="alternate" style="height:1000px"> Integrating code change state3 </marquee>.."+new java.util.Date()+"</h1>");
+		out.print("<h1><marquee style="border:RED 3px SOLID"> Integrating code change state3 </marquee>.."+new java.util.Date()+"</h1>");
+		out.print(""<h1><marquee> Some text here <img src="https://www.docker.com/sites/all/themes/docker/assets/images/logo.png" width="150" height="100" alt="Tutorials" border="0"></marquee>"+new java.util.Date()+"</h1>");
+		
 		out.flush();
 		out.close();	}
 }
