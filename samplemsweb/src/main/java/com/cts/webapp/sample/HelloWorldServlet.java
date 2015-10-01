@@ -20,7 +20,7 @@ public class HelloWorldServlet extends HttpServlet {
 		PrintWriter out = resp.getWriter();
 		
 		out.println("<body style='background-color:#82CEE5;'>");
-		out.println("<marquee width=200 direction=left><img src=http://www.krazy-kreations.com/images/babies/0059.gif></marquee>");
+		out.println("<marquee direction=left><img src=http://www.krazy-kreations.com/images/babies/0059.gif></marquee>");
 		out.print("<h1><marquee> Integrating code change on DOCKER container </marquee>"+new java.util.Date()+"</h1>");
 	//	out.print("<h1><marquee>Integrating code change state3</marquee>..</h1>");
 		out.print("<h1><marquee direction=right> Docker helps rapid application deployment </marquee></h1>");
