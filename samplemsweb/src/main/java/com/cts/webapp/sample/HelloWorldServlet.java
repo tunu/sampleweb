@@ -20,16 +20,16 @@ public class HelloWorldServlet extends HttpServlet {
 		PrintWriter out = resp.getWriter();
 		
 		out.println("<body style='background-color:#82CEE5;'>");
-		out.println("<marquee direction=left><img src=http://www.krazy-kreations.com/images/babies/0059.gif></marquee>");
-		out.print("<h1><marquee> Integrating code change on DOCKER container </marquee>"+new java.util.Date()+"</h1>");
-		out.print("<h1><marquee>Integrating code change state3</marquee>..</h1>");
-		out.print("<h1><marquee direction=right> Docker helps rapid application deployment </marquee></h1>");
-		out.print("<h1><marquee behavior=alternate> Docker helps portability across machines </marquee></h1>");
-		out.print("<h1><marquee direction=up behavior=alternate style=height:100px> Docker helps sharing and minimal overhead </marquee></h1>");
-		out.print("<h1><marquee style=border:RED 3px SOLID> Docker containers are lightweight </marquee></h1>");
-		out.print("<h1><marquee> Shippable <img src=https://www.docker.com/sites/all/themes/docker/assets/images/logo.png width=300 height=100 alt=Tutorials border=0></marquee></h1>");
-		out.println("<marquee direction=right><img src=http://www.krazy-kreations.com/images/babies/0059.gif></marquee>");
-		out.print("<h1><marquee behavior=alternate direction=up width=80%><marquee direction=right behavior=alternate>Know more about docker from here https://www.docker.com/</marquee></marquee></h1>");
+	//	out.println("<marquee direction=left><img src=http://www.krazy-kreations.com/images/babies/0059.gif></marquee>");
+	//	out.print("<h1><marquee> Integrating code change on DOCKER container </marquee>"+new java.util.Date()+"</h1>");
+	//	out.print("<h1><marquee>Integrating code change state3</marquee>..</h1>");
+	//	out.print("<h1><marquee direction=right> Docker helps rapid application deployment </marquee></h1>");
+	//	out.print("<h1><marquee behavior=alternate> Docker helps portability across machines </marquee></h1>");
+	//	out.print("<h1><marquee direction=up behavior=alternate style=height:100px> Docker helps sharing and minimal overhead </marquee></h1>");
+	//	out.print("<h1><marquee style=border:RED 3px SOLID> Docker containers are lightweight </marquee></h1>");
+	//	out.print("<h1><marquee> Shippable <img src=https://www.docker.com/sites/all/themes/docker/assets/images/logo.png width=300 height=100 alt=Tutorials border=0></marquee></h1>");
+	//	out.println("<marquee direction=right><img src=http://www.krazy-kreations.com/images/babies/0059.gif></marquee>");
+	//	out.print("<h1><marquee behavior=alternate direction=up width=80%><marquee direction=right behavior=alternate>Know more about docker from here https://www.docker.com/</marquee></marquee></h1>");
 		out.flush();
 		out.close();	}
 }
